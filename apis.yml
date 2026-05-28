@@ -1,0 +1,32 @@
+aid: binlist
+name: Binlist
+description: "Public access to a database of IIN/BIN information"
+url: https://binlist.net/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Finance"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Finance
+  - Public APIs
+apis:
+  - name: Binlist
+    description: "Public access to a database of IIN/BIN information"
+    humanURL: https://binlist.net/
+    baseURL: https://binlist.net/
+    tags:
+      - Finance
+    properties:
+      - type: Documentation
+        url: https://binlist.net/
+common:
+  - type: Website
+    url: https://binlist.net/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
