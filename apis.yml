@@ -39,7 +39,6 @@ apis:
   - name: Binlist
     description: "Public access to a database of IIN/BIN information"
     humanURL: https://binlist.net/
-    baseURL: https://binlist.net/
     tags:
       - Finance
     properties:
